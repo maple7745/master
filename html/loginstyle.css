@@ -1,0 +1,18 @@
+
+/*login*/
+
+
+
+body{
+    font-family: DFKai-sb;
+    display: flex;
+    background-color: beige;
+    align-items: center;
+    justify-content: center;
+}
+#login{
+    background-color: blanchedalmond;
+    width: 800px;
+    height: 800px;
+    padding: 60px;
+}

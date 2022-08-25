@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--設定編碼為UTF-8 才看的懂中文-->
+        <meta charset="UTF-8"></meta>
+        <!--搜尋引擎的描述-->
+        <meta name="description" content="練習用個人網站"/>
+        <!--作者-->
+        <meta name="author" content="淳"/>
+        <!--關鍵字-->
+        <meta name="keyword" content="淳的網頁,面試,個人網頁"/>
+        <!--調整畫面兼容手機-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <!--套用css Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <!--套用 google Fonts 字型-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!--Bootstrap-->
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300&display=swap" rel="stylesheet">
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        
+        <script src="https://kit.fontawesome.com/71ca8a85c2.js" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <!--網頁的表頭-->
+        <title>Chun_淳</title>
+    </head>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <img src="picture/chun.png">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">作品主頁</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="http://web.asis.mcu.edu.tw/zh-hant">銘傳大學</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index2.html">程式碼展示</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      聯繫方式
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="https://line.me/ti/p/M6QlUUGAUA"><i class="fa-brands fa-line fa-1x"></i>Line</a></li>
+                      <li><a class="dropdown-item" href="mailto:maple7745@gmail.com"><i class="fa-solid fa-envelope"></i>Gmail</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item"><i class="fa-solid fa-phone"></i>0911407181</a></li>
+                    </ul>
+                  </li>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">個人網頁</a>
+                  </li>
+                </ul>
+                <a href="index.php" class="btn btn-danger">登入會員</a>
+              </div>
+        </nav>
+    </header>
+
+
+    <SECTION id="code">
+      <div class="text-center">
+        <h1>完整程式碼展示</h1>
+        <hr>
+      </div>
+      <DIV class="container">
+          <div class="row">
+              <div class="col-md-12 text-center">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                      <img src="picture/indexphp.png" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                      <img src="picture/go03php.png" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="picture/go03new.png" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="picture/go03php.png" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>four slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                  <div class="row">
+                    
+                      <div class="col-md-12">
+                          <h3>消防隊服役</h3>
+                          <a> 服役期間是做消防隊役男，跟著救護車出勤<br>
+                              說實話一開始都會害怕的，怕血怕屍體<br>
+                              但是每次出勤的心態都是趕著去救人<br>
+                              當你無法給予及時的救助時，那種無助感會讓你快速的見識到自己的不足<br>
+                              時刻提醒自己，保持學習、精進自己。<br><br>
+                              隨著疫情爆發的高峰，每天都出門接確診者<br>
+                              每次的救助中性格也越來越堅毅，當你成為每一位<br>
+                              患者的希望，能力越大責任越大，要負起責任救助他們<br>
+                              能做到的事情盡力去完成，當看過了這麼多的生死關頭<br>
+                              了解到生命是如此脆弱，珍惜當下過好每一天<br>
+                              全力以赴成為了我的人生宗旨。<br>
+                          </a>
+                          <br>
+                          <hr>
+                          <h3>從不畏懼夢想落空,命運只管教我越挫越勇</h3>
+
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </DIV>
+  </SECTION>
+
+          
+    

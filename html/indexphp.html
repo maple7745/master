@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--設定編碼為UTF-8 才看的懂中文-->
+        <meta charset="UTF-8"></meta>
+        <!--搜尋引擎的描述-->
+        <meta name="description" content="練習用個人網站"/>
+        <!--作者-->
+        <meta name="author" content="淳"/>
+        <!--關鍵字-->
+        <meta name="keyword" content="淳的網頁,面試,個人網頁"/>
+        <!--調整畫面兼容手機-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <!--套用css Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <!--套用 google Fonts 字型-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!--Bootstrap-->
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300&display=swap" rel="stylesheet">
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        
+        <script src="https://kit.fontawesome.com/71ca8a85c2.js" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+        <!--網頁的表頭-->
+        <title>Chun_淳</title>
+    </head>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <img src="picture/chun.png">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">作品主頁</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://bootstrap5.hexschool.com/">Bootstrap5</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      聯繫方式
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="https://line.me/ti/p/M6QlUUGAUA"><i class="fa-brands fa-line fa-1x"></i>Line</a></li>
+                      <li><a class="dropdown-item" href="mailto:maple7745@gmail.com"><i class="fa-solid fa-envelope"></i>Gmail</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item"><i class="fa-solid fa-phone"></i>0911407181</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="http://web.asis.mcu.edu.tw/zh-hant">銘傳大學</a>
+                  </li>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">個人網頁</a>
+                  </li>
+                </ul>
+                <a href="index.php" class="btn btn-danger">登入會員PHP檔</a>
+              </div>
+        </nav>
+    </header>
+
+
+    <SECTION id="code">
+      <div class="text-center">
+        <h1>登入會員後端運作展示</h1>
+        <hr>
+      </div>
+      <DIV class="container">
+          <div class="row">
+              <div class="col-md-12 text-center">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                      <img src="picture/indexphp.png" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>圖一 會員登入介面</h5>
+                        <p>從index.php顯示登入頁面 可輸入帳號密碼 加入會員則可以跳至圖二</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                      <img src="picture/go03php.png" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>圖二 加入會員介面</h5>
+                        <p>go03.php加入會員 輸入帳號密碼 在資料庫中建立一組帳號密碼</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="picture/go03new.png" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>圖三 連接資料庫語法</h5>
+                        <p>轉跳至g03new.php 連結資料庫 並顯示語法 五秒後轉跳回登入分頁</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="picture/phpmyadmin.png" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>圖四 phpmyadmin 建構帳號</h5>
+                        <p>圖四中可以看出已新增帳號密碼進入資料庫</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="picture/check01.png" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>圖五 check 驗證帳號密碼</h5>
+                        <p>後端程式碼驗證帳號密碼是否存在 正確無誤及轉跳至主網頁</p>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+
+                <div>
+                    <br>
+                </div>
+
+                  <div class="row">
+
+                    <div class="col-md-6">
+                        <img src="picture/xampp.png" width="100%">
+                    </div>
+
+                    <div class="col-md-6">
+                      <h3>利用XAMPP 整合 Apache、PHP、資料庫</h3>
+                      <br>
+                      <hr>
+                      <a>透過XAMPP就可以快速架站,簡易的串接資料庫實現會員帳號驗證機制<br><br></a>
+                      <a>並從中了解PHP如何搭配HTML使用,熟悉基礎的PHP語法<br><br></a>
+                      <a>在本機架設資料庫供資料存取,同時熟悉SQL基本語法搭配PHP下指令<br><br></a>
+                      <a>順利建構一套基本的會員機制,並擁有自主加入的功能<br><br></a>
+                      <a><br><br></a>
+                      <br>
+                      <hr>
+                      <h3>PHP與MYSQL基本應用</h3>
+
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </DIV>
+  </SECTION>
+
+          
+    

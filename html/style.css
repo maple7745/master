@@ -1,0 +1,109 @@
+header img{
+    width: 120px;
+}
+header li{
+    margin: 15px;
+}
+
+
+
+/*.box-animation{
+    
+}
+*/
+
+/*
+margin-bottom margin空間
+border-radius 圓角
+*/
+
+.jumbotron {
+    padding: 20rem 1rem;
+    margin-bottom: 0rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+    background-image: url(picture/mountain3.png);
+    background-size: 100% 100%;
+  }
+.jumbotron2 {
+    padding: 5rem 1rem;
+    margin-bottom: 0rem;
+    background-color: #deeafc;
+    border-radius: .3rem;
+  }
+.jumbotron3 {
+    padding: 4rem 1rem;
+    margin-bottom: 0rem;
+    background-color: #f6f8e8;
+    border-radius: .3rem;
+  }
+#experience{
+    padding: 2rem 1rem;
+    margin-bottom: 0rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+}
+#code{
+    padding: 1rem 1rem;
+    margin-bottom: 0rem;
+    background-color: #929292ec;
+    border-radius: .3rem;
+}
+footer{
+    padding: 3rem 1rem;
+    margin-bottom: 0rem;
+    background-color: #f5ebb3;
+
+}
+
+  /*background-image: url(mountain.jpg);
+  background-size: 100% 100%;
+  */
+
+/*flex 由左至右*/
+/*flexwrap 換行*/
+/*flex-direction: column; 由上而下*/
+/*
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+.box div{
+    border:1px solid red;
+    padding:10px;
+    width:120px;
+}
+*/
+/*p{
+    color:rgb(80, 80, 80);
+    font-family:DFKai-sb;
+    background-color: beige;
+}*/
+
+
+.skill{
+    color:rgb(80, 80, 80);
+    font-family:DFKai-sb;
+    background-color: beige;
+    display: inline;
+
+}
+
+#me{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
